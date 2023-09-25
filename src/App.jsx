@@ -1,40 +1,26 @@
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Nav from './components/Nav'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
 
-export default function App() {
+function App() {
 
   return (
     <div className='App'>
-      App
-      <nav>
-        <ul>
-            <li>
-                About Me
-            </li>
-            <li>
-                Projects
-            </li>
-            <li>
-                Contact
-            </li>
-        </ul>
-      </nav>
-      <main></main>
-      <footer>
-        <p>
-            ⓒ Wentana Ghile
-        </p>
-        <div id='social-media'>
-            <a href='https://www.linkedin.com/in/wentanaghile/' target='_blank'>
-                <img className='social-media' src='/images/linkedin-icon.png' alt = 'LinkedIn Logo'/>
-            </a>
-            <a href='https://github.com/wghile' target='_blank'>
-                <img className='social-media' src='/images/github-icon.png' alt='GitHub Logo' />
-            </a>
-            <a href='mailto: weghile@gmail.com'>
-                <img className='social-media' src='/images/email-icon.png' alt='Email Icon'/>
-            </a>
-        </div>
-      </footer>
+      <Nav />
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/portfolio' element={<Projects />}/>
+        <Route path='/contact' element={<Contact />}/>
+      </Routes>
+      <Footer />
     </div>
   )
 }
+
+export default App

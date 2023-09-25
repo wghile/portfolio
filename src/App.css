@@ -12,25 +12,27 @@
   height: 100vh;
   width: 100vw;
 }
-.App > nav{
+
+/* Nav Component */
+.Nav{
   grid-row: 1/2;
   background-color: lightcyan;
   width: 100vw;
   height: 50px;
   position: fixed;
 }
-.App > nav > ul{
+
+.Nav > ul{
   list-style: none;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.App > main{
-  grid-row: 2/3;
-  background-color: black;
-}
-.App > footer{
+
+
+/* Footer Component */
+.Footer{
   grid-row: 3/4;
   background-color: lightcyan;
   width: 100vw;
@@ -42,20 +44,41 @@
   grid-template-columns: 1fr 200px 1fr;
   align-items: center;
 }
-.App > footer > p{
+.Footer > p{
   grid-column: 1/2;
   padding-left: 80px;
   font-size: 18px;
 }
-.App > footer > #social-media{
+.Footer > #social-media{
   grid-column: 2/3;
   display: flex;
   justify-content: space-evenly;
   margin-top: 5px;
 }
-.App > footer > #social-media > a{
+.Footer > #social-media > a{
   text-decoration: none;
 }
-.App > footer > #social-media > a > .social-media{
+.Footer > #social-media > a > .social-media{
   width: 40px;
+}
+
+.About{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+.Home{
+  background-color: orange;
+  height: 100vh;
+  width: 100vw;
+}
+.Projects{
+  background-color: purple;
+  height: 100vh;
+  width: 100vw;
+}
+.Contact{
+  background-color: blue;
+  height: 100vh;
+  width: 100vw;
 }
