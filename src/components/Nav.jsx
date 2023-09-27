@@ -19,11 +19,11 @@ export default function Nav() {
                     Projects
                 </li>
             </Link>
-            <Link to='/contact' style={{textDecoration: 'none', color: 'black'}}>
+            {/* <Link to='/contact' style={{textDecoration: 'none', color: 'black'}}>
                 <li>
                     Contact
                 </li>
-            </Link>
+            </Link> */}
         </ul>
     </div>
   )

@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: 'Georgia';
 }
-
 /* App Component */
 .App{
   display: grid;
@@ -12,6 +11,7 @@
   height: 100vh;
   width: 100vw;
 }
+
 
 /* Nav Component */
 .Nav{
@@ -27,7 +27,98 @@
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: left;
+}
+.Nav > ul > a > li{
+  padding: 0px 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.025in;
+  font-weight: bold;
+}
+.Nav > ul > a > li:hover{
+  text-decoration: underline;
+}
+
+
+/* Home Component */
+.Home {
+  grid-row: 2/3;
+  background-color: orange;
+}
+
+
+/* About Component */
+.About{
+  grid-row: 2/3;
+  background-color: papayawhip;
+}
+
+
+/* Projects Component */
+.Projects{
+  grid-row: 2/3;
+  background-color: black;
+  color: white;
+  overflow: scroll;
+  padding: 50px;
+}
+.Projects > h2{
+  letter-spacing: 0.05in;
+  font-family: 'Cambria';
+  color: coral;
+  font-size: 40px;
+  text-align: center;
+}
+.Projects > p{
+  letter-spacing: 0.02in;
+  line-height: 0.4in;
+  font-family: 'Cambria';
+  color: aliceblue;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 70px;
+}
+.Projects > #tech-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+    top: 60px;
+}
+.Projects > #tech-list > p{
+  font-family: monospace;
+  font-size: 20px;
+  color: lightseagreen;
+}
+.Projects > #tech-list > li{
+  display: inline;
+}
+.Projects > #tech-list > li > .tech-logos{
+  width: 40px;
+  margin: auto 5px;
+}
+.Projects > #tech-list > li > #html{
+  height: 60px;
+  width: 60px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+}
+.Projects > #tech-list > li > #css{
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+.Projects > #tech-list > li > #node{
+  width: 60px;
+}
+.Projects > #tech-list > li > #express{
+  width: 60px;
+  margin-right: 0px;
+}
+.Projects > #tech-list > li > #mongodb{
+  width: 120px;
+  margin-left: 0px;
 }
 
 
@@ -46,13 +137,13 @@
 }
 .Footer > p{
   grid-column: 1/2;
-  padding-left: 80px;
+  padding-left: 40px;
   font-size: 18px;
 }
 .Footer > #social-media{
   grid-column: 2/3;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 5px;
 }
 .Footer > #social-media > a{
@@ -62,21 +153,8 @@
   width: 40px;
 }
 
-.About{
-  background-color: black;
-  height: 100vh;
-  width: 100vw;
-}
-.Home{
-  background-color: orange;
-  height: 100vh;
-  width: 100vw;
-}
-.Projects{
-  background-color: purple;
-  height: 100vh;
-  width: 100vw;
-}
+
+/* Contact Component */
 .Contact{
   background-color: blue;
   height: 100vh;
