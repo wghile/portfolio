@@ -5,7 +5,7 @@ export default function Projects() {
            Portfolio 
         </h2>
         <p>
-            Below are some projects I built as I venture down this new path of becoming a Software Engineer! Having just started coding May of 2023 I'm very proud of what I've accomplished so far and know that this is only the beginning. Take a look at some of my projects by clicking on the images below. I'd love to hear your feedback/thoughts!
+            Below are some projects I built while on this new journey of becoming a Software Engineer! I started coding May of 2023 with SheCodes, and I'm happy with what I've accomplished so far. This is only the beginning and I'm excited for what's next. Check out some of my projects by clicking on the images below. I'd love to hear your feedback/thoughts!
             <br />
             <br />
             <em style={{fontSize: '18px', color: 'violet'}}>(Stay tuned for more projects coming soon...)</em>
@@ -34,13 +34,107 @@ export default function Projects() {
                 <img id='mongodb' className="tech-logos" src='/images/mongodb.png'/>
             </li>
         </ul>
-        <div>
-            <img className='projects' src = '/images/concert-search.png'/>
-            <img className='projects' src = '/images/pokemon-app.png'/>
-            <img className='projects' src = '/images/spacebattle.png'/>
-            <img className='projects' src = '/images/darts.png'/>
-            <img className='projects' src = '/images/employee-directory.png'/>
+        <div className='marker'>*</div>
+        <div id="projects">
+            <div className="project-unit">
+                <a href="https://concert-search.netlify.app/" target="_blank">
+                    <img className='project-img' src = '/images/concert-search.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Find events based on artist keyword using Ticketmaster API
+                    </p>
+                    <p>
+                        🔨 Built with: React + Vite, JS, HTML, CSS
+                    </p>
+                    <p>
+                        Find more details about the project on Github 
+                        <a href="https://github.com/wghile/concert-search" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div className="project-unit">
+                <a href="https://pokemon-list.onrender.com/" target="_blank">
+                    <img className='project-img' src = '/images/pokemon-app.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Add/delete/edit Pokémon from database
+                    </p>
+                    <p>
+                        🔨 Built with: Nodejs, Express, Mongoose, MongoDB
+                    </p>
+                    <p>
+                        Find more details about the project on Github 
+                        <a href="https://github.com/wghile/pokemon-express-ejs" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div className="project-unit">
+                <a href="https://wghile.github.io/spacebattlegame/" target="_blank">
+                    <img className='project-img' src = '/images/spacebattle.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Survive an alien invasion!
+                    </p>
+                    <p>
+                        🔨 Built with: HTML, CSS, JS
+                    </p>
+                    <p>
+                        Find more details about the project on Github 
+                        <a href="https://github.com/wghile/spacebattlegame" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div className="project-unit">
+                <a href="https://wghile.github.io/darts/" target="_blank">
+                    <img className='project-img' src = '/images/darts.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Play against a computer in classic game of darts
+                    </p>
+                    <p>
+                        🔨 Built with: HTML, CSS, JS (OOP)
+                    </p>
+                    <p>
+                        Find more details about the project on Github 
+                        <a href="https://github.com/wghile/darts" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div className="project-unit">
+                <a href="https://abbott-elementary-employee-directory.netlify.app/" target="_blank">
+                    <img className='project-img' src = '/images/employee-directory.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Search for Abbott Elementary employee to find their info
+                    </p>
+                    <p>
+                        🔨 Built with: React + Vite, HTML, CSS, JS
+                    </p>
+                    <p>
+                        Find more details about the project on Github 
+                        <a href="https://github.com/wghile/employee-directory" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
+        <p id='end-note'>
+            <span className='marker'>*</span> Projects deployed on Render are spun down on idle. Render spins the service back up when it receives a request to process which may take a few minutes to load browser.
+        </p>
     </div>
   )
 }
