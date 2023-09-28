@@ -123,11 +123,11 @@
   }
 .Projects > .marker{
   color: yellow; 
-  font-size: 50px;
+  font-size: 40px;
   width: 10px;
   position: relative;
     left: 92vw;
-    bottom: 6vh;
+    bottom: 7vh;
 }
 .Projects > #projects{
   position: relative;

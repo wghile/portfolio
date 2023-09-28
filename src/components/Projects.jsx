@@ -133,7 +133,7 @@ export default function Projects() {
             </div>
         </div>
         <p id='end-note'>
-            <span className='marker'>*</span> Projects deployed on Render are spun down on idle. Render spins the service back up when it receives a request to process which may take a few minutes to load browser.
+            <span className='marker'>*</span> Projects deployed on Render are spun down on idle. Render spins the service back up when it receives a request to process (e.g. opening the application) which may take a few minutes.
         </p>
     </div>
   )
