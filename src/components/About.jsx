@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='About'>
       <div id='edu'>
-        <h2>
+        <h2 className='header'>
           Education
         </h2>
         <p id='section-title'>
@@ -17,7 +17,7 @@ export default function About() {
         </ul>
       </div>
       <div id='hobby'>
-        <h2>
+        <h2 className='header'>
           Hobbies
         </h2>
         <p id='hobby-title'>

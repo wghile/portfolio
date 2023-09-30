@@ -136,7 +136,7 @@
   gap: 10px 0px;
   padding: 50px 100px;
 }
-  h2{
+  .header{
     letter-spacing: 0.02in;
     border-bottom: 2px solid lightseagreen;
     width: 60vw;
