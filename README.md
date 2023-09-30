@@ -1,1 +1,1 @@
-Link to portfolio:
+Built with React + Vite, JavaScript, HTML, CSS
