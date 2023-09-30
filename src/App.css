@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Mooli:regular);
 @import url(https://fonts.googleapis.com/css?family=Tilt+Prism:regular);
 @import url(https://fonts.googleapis.com/css?family=Courgette:regular);
+@import url(https://fonts.googleapis.com/css?family=Croissant+One:regular);
 
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Georgia';
 }
 /* App Component */
 .App{
@@ -47,8 +47,57 @@
 /* Home Component */
 .Home {
   grid-row: 2/3;
-  background-color: orange;
+  background-color: black;
+  font-family: Croissant One;
+
+  background-image: url('/images/coding.jpeg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 50%;
+
+  display: grid;
+  grid-template-rows: 40% 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
+  .Home > h1{
+    padding-top: 50px;
+    color: gold;
+    font-size: 80px;
+    letter-spacing: 0.1in;
+    text-transform: uppercase;
+  }
+  #text{
+    line-height: 0.6in;
+    padding-top: 100px;
+  }
+    #greeting{
+      color: crimson;
+      font-size: 35px;
+      text-align: center;
+    }
+      #flag{
+        font-size: 30px;
+      }
+    #goals{
+      color: green;
+      font-size: 25px;
+      text-align: center;
+      font-style: italic;
+    }
+  #links{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+  }
+    #links > a{
+      font-size: 25px;
+      color: dodgerblue;
+      text-decoration: none;
+    }
+    #links > a:hover{
+      text-decoration: underline;
+    }
 
 
 /* About Component */
