@@ -4,11 +4,11 @@ export default function Projects() {
         <h2>
            Portfolio 
         </h2>
-        <p>
+        <p id='info'>
             Below are some projects I built while on this new journey of becoming a Software Engineer! I started coding May of 2023 with SheCodes, and I'm happy with what I've accomplished so far. This is only the beginning and I'm excited for what's next. Check out some of my projects by clicking on the images below. I'd love to hear your feedback/thoughts!
             <br />
             <br />
-            <em style={{fontSize: '18px', color: 'violet'}}>(Stay tuned for more projects coming soon...)</em>
+            <em style={{fontSize: '18px', color: 'violet', fontFamily: 'Mooli'}}>(Stay tuned for more projects coming soon...)</em>
         </p>
         <ul id="tech-list">
             <p>Technologies I've worked with:</p>
@@ -48,7 +48,7 @@ export default function Projects() {
                         🔨 Built with: React + Vite, JS, HTML, CSS
                     </p>
                     <p>
-                        Find more details about the project on Github 
+                        🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/concert-search" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
@@ -67,7 +67,7 @@ export default function Projects() {
                         🔨 Built with: Nodejs, Express, Mongoose, MongoDB
                     </p>
                     <p>
-                        Find more details about the project on Github 
+                        🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/pokemon-express-ejs" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
@@ -86,7 +86,7 @@ export default function Projects() {
                         🔨 Built with: HTML, CSS, JS
                     </p>
                     <p>
-                        Find more details about the project on Github 
+                        🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/spacebattlegame" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
@@ -105,7 +105,7 @@ export default function Projects() {
                         🔨 Built with: HTML, CSS, JS (OOP)
                     </p>
                     <p>
-                        Find more details about the project on Github 
+                        🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/darts" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
@@ -124,7 +124,7 @@ export default function Projects() {
                         🔨 Built with: React + Vite, HTML, CSS, JS
                     </p>
                     <p>
-                        Find more details about the project on Github 
+                        🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/employee-directory" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
@@ -133,7 +133,7 @@ export default function Projects() {
             </div>
         </div>
         <p id='end-note'>
-            <span className='marker'>*</span> Projects deployed on Render are spun down on idle. Render spins the service back up when it receives a request to process (e.g. opening the application) which may take a few minutes.
+            <span className='marker'>*</span> Projects deployed on Render (for free) are spun down on idle. Render spins the service back up when it receives a request to process, e.g. opening the application, which may take a few minutes.
         </p>
     </div>
   )
