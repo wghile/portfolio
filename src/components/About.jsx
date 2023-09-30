@@ -8,11 +8,11 @@ export default function About() {
           Education
         </h2>
         <p id='section-title'>
-          Per Scholas Software Engineering Training
+          Per Scholas Software Engineering
         </p>
         <ul>
           <li>
-            15-week course teaching React, Node, Express, design patterns & system architecture
+            15-week course training students React, Node, Express, design patterns & system architecture
           </li>
         </ul>
       </div>

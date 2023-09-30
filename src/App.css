@@ -58,16 +58,17 @@
   background-image: url('/images/coding.jpeg');
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 100% 50%;
+  background-size: 100% 60%;
   background-blend-mode: hard-light;
 
   display: grid;
-  grid-template-rows: 40% 300px 100px;
+  grid-template-rows: 60% 250px;
   justify-items: center;
   align-items: center;
 }
   .Home > h1{
-    padding-top: 50px;
+    grid-row: 1/2;
+
     color: white;
     opacity: 0.75;
     font-size: 80px;
@@ -75,13 +76,13 @@
     text-transform: uppercase;
   }
   #text{
+    grid-row: 2/3;
+
     display: grid;
     grid-template-columns: 440px 800px;
     grid-template-rows: 50px 50px;
     align-items: center;
     gap: 0px 40px;
-    padding-top: 50px;
-
     letter-spacing: 0.05in;
   }
     #pic{
@@ -104,23 +105,9 @@
     #goals{
       grid-column: 2/3;
       grid-row: 2/3;
-      color: green;
+      color: dodgerblue;
       font-size: 20px;
       font-style: italic;
-    }
-  #links{
-    width: 40vw;
-    display: flex;
-    justify-content: space-between;
-  }
-    #links > a{
-      font-size: 25px;
-      color: dodgerblue;
-      letter-spacing: 0.05in;
-      text-decoration: none;
-    }
-    #links > a:hover{
-      text-decoration: underline;
     }
 
 
@@ -133,7 +120,7 @@
 
   display: grid;
   grid-template-rows: 1fr 2fr;
-  gap: 10px 0px;
+  gap: 70px 0px;
   padding: 50px 100px;
 }
   .header{
@@ -144,19 +131,21 @@
     text-transform: uppercase;
   }
   #section-title, #hobby-title{
-    padding-left: 20px;
-    padding-top: 10px;
+    padding: 10px 0px 25px 20px;
     font-size: 18px;
+    letter-spacing: 0.02in;
   }
   #edu > ul{
     padding-left: 80px;
+    width: 60vw;
   }
   #edu > ul > li{
-    line-height: 0.7in;
+    line-height: 0.3in;
     font-size: 18px;
+    letter-spacing: 0.01in;
+    overflow-wrap: break-word;
   }
   #hobby > #images{
-    margin-top: 20px;
     padding-left: 20px;
   }
     .images{

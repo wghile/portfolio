@@ -15,14 +15,6 @@ export default function Home() {
             Full-Stack Software Engineer in the Making
           </p>
         </div>
-        <div id='links'>
-          <a href='/about'>
-            More About Me
-          </a>
-          <a href='/portfolio'>
-            View Projects
-          </a>
-        </div>
     </div>
   )
 }
