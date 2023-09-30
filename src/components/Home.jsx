@@ -7,6 +7,7 @@ export default function Home() {
           Welcome
         </h1>
         <div id='text'>
+          <img id='pic' src='/images/profile.png' alt='Profile Pic' />
           <p id='greeting'>
             Hi, I'm Wentana <span id='flag'>🇪🇷</span>
           </p>

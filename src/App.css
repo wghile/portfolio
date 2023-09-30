@@ -1,7 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Mooli:regular);
 @import url(https://fonts.googleapis.com/css?family=Tilt+Prism:regular);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface:regular);
+
+
+@import url(https://fonts.googleapis.com/css?family=Mooli:regular);
 @import url(https://fonts.googleapis.com/css?family=Courgette:regular);
 @import url(https://fonts.googleapis.com/css?family=Croissant+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Bitter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
 
 *{
   margin: 0px;
@@ -48,7 +53,7 @@
 .Home {
   grid-row: 2/3;
   background-color: black;
-  font-family: Croissant One;
+  font-family: Abril Fatface;
 
   background-image: url('/images/coding.jpeg');
   background-repeat: no-repeat;
@@ -57,7 +62,7 @@
   background-blend-mode: hard-light;
 
   display: grid;
-  grid-template-rows: 40% 1fr 1fr;
+  grid-template-rows: 40% 300px 100px;
   justify-items: center;
   align-items: center;
 }
@@ -70,31 +75,48 @@
     text-transform: uppercase;
   }
   #text{
-    line-height: 0.6in;
-    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 440px 800px;
+    grid-template-rows: 50px 50px;
+    align-items: center;
+    gap: 0px 40px;
+    padding-top: 50px;
+
+    letter-spacing: 0.05in;
   }
+    #pic{
+      grid-column: 1/2;
+      grid-row: 1/3;
+      width: 150px;
+      height: 160px;
+      border-radius: 30px;
+      justify-self: right;
+    }
     #greeting{
+      grid-column: 2/3;
+      grid-row: 1/2;
       color: crimson;
       font-size: 35px;
-      text-align: center;
     }
       #flag{
         font-size: 30px;
       }
     #goals{
+      grid-column: 2/3;
+      grid-row: 2/3;
       color: green;
-      font-size: 25px;
-      text-align: center;
+      font-size: 20px;
       font-style: italic;
     }
   #links{
-    width: 30vw;
+    width: 40vw;
     display: flex;
     justify-content: space-between;
   }
     #links > a{
       font-size: 25px;
       color: dodgerblue;
+      letter-spacing: 0.05in;
       text-decoration: none;
     }
     #links > a:hover{
@@ -105,8 +127,43 @@
 /* About Component */
 .About{
   grid-row: 2/3;
-  background-color: papayawhip;
+  background-color: black;
+  color: aliceblue;
+  font-family: Georgia;
+
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  gap: 10px 0px;
+  padding: 50px 100px;
 }
+  h2{
+    letter-spacing: 0.02in;
+    border-bottom: 2px solid lightseagreen;
+    width: 60vw;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  #section-title, #hobby-title{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  #edu > ul{
+    padding-left: 80px;
+  }
+  #edu > ul > li{
+    line-height: 0.7in;
+    font-size: 18px;
+  }
+  #hobby > #images{
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+    .images{
+      height: 200px;
+      border-radius: 4px;
+      margin-right: 20px;
+    }
 
 
 /* Projects Component */
@@ -127,7 +184,7 @@
 .Projects > #info{
   letter-spacing: 0.02in;
   line-height: 0.4in;
-  font-family: Mooli;
+  font-family: Georgia;
   color: aliceblue;
   font-size: 20px;
   text-align: center;

@@ -8,7 +8,7 @@ export default function Projects() {
             Below are some projects I built while on this new journey of becoming a Software Engineer! I started coding May of 2023 with SheCodes, and I'm happy with what I've accomplished so far. This is only the beginning and I'm excited for what's next. Check out some of my projects by clicking on the images below. I'd love to hear your feedback/thoughts!
             <br />
             <br />
-            <em style={{fontSize: '18px', color: 'violet', fontFamily: 'Mooli'}}>(Stay tuned for more projects coming soon...)</em>
+            <em style={{fontSize: '18px', color: 'violet', fontFamily: 'Georgia'}}>(Stay tuned for more projects coming soon...)</em>
         </p>
         <ul id="tech-list">
             <p>Technologies I've worked with:</p>
