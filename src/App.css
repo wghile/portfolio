@@ -1,13 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Tilt+Prism:regular);
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface:regular);
 
-
-@import url(https://fonts.googleapis.com/css?family=Mooli:regular);
-@import url(https://fonts.googleapis.com/css?family=Courgette:regular);
-@import url(https://fonts.googleapis.com/css?family=Croissant+One:regular);
-@import url(https://fonts.googleapis.com/css?family=Bitter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
-
 *{
   margin: 0px;
   padding: 0px;
@@ -313,7 +306,7 @@
 .Footer > #social-media{
   grid-column: 2/3;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 5px;
 }
 .Footer > #social-media > a{
