@@ -61,7 +61,7 @@ export default function Projects() {
                 </a>
                 <div className="text-box">
                     <p>
-                        ❓ Add/delete/edit Pokémon from database
+                        ❓ Add/delete/edit Pokémon from database using Restful Routes
                     </p>
                     <p>
                         🔨 Built with: Nodejs, Express, Mongoose, MongoDB
