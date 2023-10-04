@@ -12,7 +12,7 @@ export default function About() {
         </p>
         <ul>
           <li>
-            15-week course training students the MERN stack and fundamentals of Software Engineering
+            15-week course learning the MERN stack and fundamentals of Software Engineering
           </li>
         </ul>
       </div>
