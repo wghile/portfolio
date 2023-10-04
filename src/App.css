@@ -92,9 +92,6 @@
       color: crimson;
       font-size: 35px;
     }
-      #flag{
-        font-size: 30px;
-      }
     #goals{
       grid-column: 2/3;
       grid-row: 2/3;

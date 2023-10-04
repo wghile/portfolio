@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 export default function Home() {
   return (
     <div className='Home'>
@@ -9,7 +7,7 @@ export default function Home() {
         <div id='text'>
           <img id='pic' src='/images/profile.png' alt='Profile Pic' />
           <p id='greeting'>
-            Hi, I'm Wentana <span id='flag'>🇪🇷</span>
+            Hi, I'm Wentana 
           </p>
           <p id='goals'>
             Full-Stack Software Engineer in the Making
