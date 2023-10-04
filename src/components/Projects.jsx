@@ -112,7 +112,7 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className="project-unit">
+            {/* <div className="project-unit">
                 <a href="https://abbott-elementary-employee-directory.netlify.app/" target="_blank">
                     <img className='project-img' src = '/images/employee-directory.png'/>
                 </a>
@@ -130,7 +130,7 @@ export default function Projects() {
                         </a>
                     </p>
                 </div>
-            </div>
+            </div> */}
         </div>
         <p id='end-note'>
             <span className='marker'>*</span> Projects deployed on Render (for free) are spun down on idle. Render spins the service back up when it receives a request to process, e.g. opening the application, which may take a few minutes.
