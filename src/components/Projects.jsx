@@ -131,6 +131,25 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
+            <div className="project-unit">
+                <a href="https://abbott-elementary-employee-directory.netlify.app/" target="_blank">
+                    <img className='project-img' src = '/images/employee-directory.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Search through staff directory to find their contact info
+                    </p>
+                    <p>
+                        🔨 Built with: React + Vite, HTML, CSS, JS
+                    </p>
+                    <p>
+                        🔍 Find more details about the project on Github 
+                        <a href="https://github.com/wghile/employee-directory" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
         <p id='end-note'>
             <span className='marker'>*</span> Projects deployed on Render (for free) are spun down on idle. Render spins the service back up when it receives a request to process, e.g. opening the application, which may take a few minutes.
