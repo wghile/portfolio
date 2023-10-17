@@ -42,7 +42,7 @@ export default function Projects() {
                 </a>
                 <div className="text-box">
                     <p>
-                        ❓ Find events based on artist keyword using Ticketmaster API
+                        ❓ Find events based on keyword using Ticketmaster API
                     </p>
                     <p>
                         🔨 Built with: React + Vite, JS, HTML, CSS
@@ -69,44 +69,6 @@ export default function Projects() {
                     <p>
                         🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/pokemon-express-ejs" target="_blank">
-                            <img className='repo-link' src='/images/github-icon2.png'/>
-                        </a>
-                    </p>
-                </div>
-            </div>
-            <div className="project-unit">
-                <a href="https://wghile.github.io/spacebattlegame/" target="_blank">
-                    <img className='project-img' src = '/images/spacebattle.png'/>
-                </a>
-                <div className="text-box">
-                    <p>
-                        ❓ Survive an alien invasion!
-                    </p>
-                    <p>
-                        🔨 Built with: HTML, CSS, JS
-                    </p>
-                    <p>
-                        🔍 Find more details about the project on Github 
-                        <a href="https://github.com/wghile/spacebattlegame" target="_blank">
-                            <img className='repo-link' src='/images/github-icon2.png'/>
-                        </a>
-                    </p>
-                </div>
-            </div>
-            <div className="project-unit">
-                <a href="https://wghile.github.io/darts/" target="_blank">
-                    <img className='project-img' src = '/images/darts.png'/>
-                </a>
-                <div className="text-box">
-                    <p>
-                        ❓ Play against a computer in classic game of darts
-                    </p>
-                    <p>
-                        🔨 Built with: HTML, CSS, JS (OOP)
-                    </p>
-                    <p>
-                        🔍 Find more details about the project on Github 
-                        <a href="https://github.com/wghile/darts" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
                     </p>
@@ -145,6 +107,44 @@ export default function Projects() {
                     <p>
                         🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/employee-directory" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div className="project-unit">
+                <a href="https://wghile.github.io/spacebattlegame/" target="_blank">
+                    <img className='project-img' src = '/images/spacebattle.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Survive an alien invasion!
+                    </p>
+                    <p>
+                        🔨 Built with: HTML, CSS, JS
+                    </p>
+                    <p>
+                        🔍 Find more details about the project on Github 
+                        <a href="https://github.com/wghile/spacebattlegame" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div className="project-unit">
+                <a href="https://wghile.github.io/darts/" target="_blank">
+                    <img className='project-img' src = '/images/darts.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Play against a computer in classic game of darts
+                    </p>
+                    <p>
+                        🔨 Built with: HTML, CSS, JS (OOP)
+                    </p>
+                    <p>
+                        🔍 Find more details about the project on Github 
+                        <a href="https://github.com/wghile/darts" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
                     </p>

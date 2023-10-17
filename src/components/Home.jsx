@@ -10,7 +10,7 @@ export default function Home() {
             Hi, I'm Wentana 
           </p>
           <p id='goals'>
-            Full-Stack Software Engineer in the Making
+            Full-Stack Software Engineer in the Making ✨
           </p>
         </div>
     </div>

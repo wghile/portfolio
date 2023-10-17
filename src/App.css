@@ -1,5 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Tilt+Prism:regular);
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface:regular);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Prata:regular);
+@import url(https://fonts.googleapis.com/css?family=Handjet:100,200,300,regular,500,600,700,800,900);
+
 
 *{
   margin: 0px;
@@ -61,11 +64,12 @@
 }
   .Home > h1{
     grid-row: 1/2;
-
-    color: white;
+    color: blueviolet;
+    font-family: Handjet;
     opacity: 0.75;
-    font-size: 80px;
-    letter-spacing: 0.1in;
+    font-size: 100px;
+    -webkit-text-stroke: 1px darkviolet;
+    letter-spacing: 0.2in;
     text-transform: uppercase;
   }
   #text{
@@ -95,7 +99,7 @@
     #goals{
       grid-column: 2/3;
       grid-row: 2/3;
-      color: dodgerblue;
+      color: whitesmoke;
       font-size: 20px;
       font-style: italic;
     }
@@ -155,7 +159,7 @@
 }
 .Projects > h2{
   letter-spacing: 0.05in;
-  font-family: Tilt Prism;
+  font-family: Playfair Display;
   color: coral;
   font-size: 40px;
   text-align: center;
@@ -233,6 +237,7 @@
   }
   .Projects > #projects > .project-unit > a > .project-img{
     width: 550px;
+    height: 301px;
     border-radius: 10px;
     border: 2px lightgray inset;
   }
