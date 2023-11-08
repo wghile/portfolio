@@ -1,9 +1,9 @@
 export default function Projects() {
   return (
     <div className="Projects">
-        <h2>
+        {/* <h2>
            Portfolio 
-        </h2>
+        </h2> */}
         <p id='info'>
             Below are some projects I built while on this new journey of becoming a Software Engineer! I started coding May of 2023 with SheCodes, and I'm happy with what I've accomplished so far. This is only the beginning and I'm excited for what's next. Check out some of my projects by clicking on the images below. I'd love to hear your feedback/thoughts!
             <br />
