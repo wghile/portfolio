@@ -5,7 +5,7 @@ export default function Projects() {
            Portfolio 
         </h2> */}
         <p id='info'>
-            Below are some projects I built while on this new journey of becoming a Software Engineer! I started coding May of 2023 with SheCodes, and I'm happy with what I've accomplished so far. This is only the beginning and I'm excited for what's next. Check out some of my projects by clicking on the images below. I'd love to hear your feedback/thoughts!
+            Here are some projects I built while on this new journey to become a Software Engineer! I started coding May of 2023 with a SheCodes workshop, and I'm happy with what I've accomplished so far. This is only the beginning and I'm excited for what's next. Check out some of my projects by clicking on the images below. I'd love to hear your feedback/thoughts!
             <br />
             <br />
             <em style={{fontSize: '18px', color: 'violet', fontFamily: 'Georgia'}}>(Stay tuned for more projects coming soon...)</em>
@@ -34,8 +34,26 @@ export default function Projects() {
                 <img id='mongodb' className="tech-logos" src='/images/mongodb.png'/>
             </li>
         </ul>
-        <div className='marker'>*</div>
         <div id="projects">
+            <div className="project-unit">
+                <a href="https://propertymanagementtool.netlify.app/" target="_blank">
+                    <img className='project-img' src = '/images/pmt.png'/>
+                </a>
+                <div className="text-box">
+                    <p>
+                        ❓ Full Stack Application for property management
+                    </p>
+                    <p>
+                        🔨 Built with: React, CSS, Node.js, Express, MongoDB
+                    </p>
+                    <p>
+                        🔍 Find more details about the project on Github 
+                        <a href="https://github.com/wghile/PM-Tool-React" target="_blank">
+                            <img className='repo-link' src='/images/github-icon2.png'/>
+                        </a>
+                    </p>
+                </div>
+            </div>
             <div className="project-unit">
                 <a href="https://concert-search.netlify.app/" target="_blank">
                     <img className='project-img' src = '/images/concert-search.png'/>
@@ -55,7 +73,7 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className="project-unit">
+            <div className="project-unit render">
                 <a href="https://pokemon-list.onrender.com/" target="_blank">
                     <img className='project-img' src = '/images/pokemon-app.png'/>
                 </a>
@@ -64,13 +82,14 @@ export default function Projects() {
                         ❓ Add/delete/edit Pokémon from database using Restful Routes
                     </p>
                     <p>
-                        🔨 Built with: Nodejs, Express, Mongoose, MongoDB
+                        🔨 Built with: Node.js, Express, Mongoose, MongoDB
                     </p>
                     <p>
                         🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/pokemon-express-ejs" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
+                        <span className='marker'>*</span>
                     </p>
                 </div>
             </div>
