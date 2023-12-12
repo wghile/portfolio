@@ -54,11 +54,11 @@
   background-image: url('/images/coding.jpeg');
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 100% 60%;
+  background-size: 100% 50%;
   background-blend-mode: hard-light;
 
   display: grid;
-  grid-template-rows: 60% 250px;
+  grid-template-rows: 50% 250px;
   justify-items: center;
   align-items: center;
 }
@@ -177,7 +177,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
   .Projects > #tech-list > p{
     font-family: monospace;

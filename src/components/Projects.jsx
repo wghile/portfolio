@@ -35,7 +35,7 @@ export default function Projects() {
             </li>
         </ul>
         <div id="projects">
-            <div className="project-unit">
+            <div className="project-unit render">
                 <a href="https://propertymanagementtool.netlify.app/" target="_blank">
                     <img className='project-img' src = '/images/pmt.png'/>
                 </a>
@@ -44,13 +44,14 @@ export default function Projects() {
                         ❓ Full Stack Application for property management
                     </p>
                     <p>
-                        🔨 Built with: React, CSS, Node.js, Express, MongoDB
+                        🔨 Built with: React + Vite, Node.js, Express, MongoDB, CSS
                     </p>
                     <p>
                         🔍 Find more details about the project on Github 
                         <a href="https://github.com/wghile/PM-Tool-React" target="_blank">
                             <img className='repo-link' src='/images/github-icon2.png'/>
                         </a>
+                        <span className='marker'>*</span>
                     </p>
                 </div>
             </div>
